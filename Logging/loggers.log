@@ -1,0 +1,24 @@
+2024-04-17T18:05:59.288+05:30  INFO 17344 --- [Logging] [main] com.example.demo.LoggingApplication      : Starting LoggingApplication using Java 21.0.2 with PID 17344 (D:\New folder\eclipse projects\Logging\target\classes started by Admin in D:\New folder\eclipse projects\Logging)
+2024-04-17T18:05:59.290+05:30  INFO 17344 --- [Logging] [main] com.example.demo.LoggingApplication      : No active profile set, falling back to 1 default profile: "default"
+2024-04-17T18:05:59.918+05:30  INFO 17344 --- [Logging] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-04-17T18:05:59.934+05:30  INFO 17344 --- [Logging] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-04-17T18:05:59.936+05:30  INFO 17344 --- [Logging] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-04-17T18:05:59.986+05:30  INFO 17344 --- [Logging] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-04-17T18:05:59.987+05:30  INFO 17344 --- [Logging] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 662 ms
+2024-04-17T18:06:00.263+05:30  INFO 17344 --- [Logging] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-04-17T18:06:00.269+05:30  INFO 17344 --- [Logging] [main] com.example.demo.LoggingApplication      : Started LoggingApplication in 1.265 seconds (process running for 1.719)
+2024-04-17T18:06:10.338+05:30  INFO 17344 --- [Logging] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-04-17T18:06:10.339+05:30  INFO 17344 --- [Logging] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-04-17T18:06:10.341+05:30  INFO 17344 --- [Logging] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2024-04-17T18:06:10.406+05:30  INFO 17344 --- [Logging] [http-nio-8080-exec-1] demo_logger_check                        : checking info logger message
+2024-04-17T18:08:05.287+05:30  INFO 17344 --- [Logging] [RMI TCP Connection(10)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2024-04-17 [INFO] com.example.demo.LoggingApplication [main] Starting LoggingApplication using Java 21.0.2 with PID 16344 (D:\New folder\eclipse projects\Logging\target\classes started by Admin in D:\New folder\eclipse projects\Logging)
+2024-04-17 [INFO] com.example.demo.LoggingApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-04-17 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port 8080 (http)
+2024-04-17 [INFO] org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2024-04-17 [INFO] org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-04-17 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2024-04-17 [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 652 ms
+2024-04-17 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port 8080 (http) with context path ''
+2024-04-17 [INFO] com.example.demo.LoggingApplication [main] Started LoggingApplication in 1.277 seconds (process running for 1.735)
+2024-04-17 [INFO] org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(10)-127.0.0.1] Application shutdown requested.
