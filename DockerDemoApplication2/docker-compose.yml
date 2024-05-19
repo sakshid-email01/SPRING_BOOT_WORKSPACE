@@ -1,0 +1,33 @@
+version: '3.8'
+
+services:
+  app:
+    image: dockerdemo2:0.0.1
+    ports:
+      - 8080:8080
+    environment:
+     SPRING_DATASOURCE_URL: jdbc:postgresql://db:5432/dockerdemo
+     SPRING_DATASOURCE_USERNAME: postgres
+     SPRING_DATASOURCE_PASSWORD: password
+     SPRING_DATASOURCE.DRIVER-CLASS-NAME: org.postgresql.Driver
+    #  POSTGRES_DATABASE: dockerdemo
+    #  DATABASE_PORT: 5432
+    depends_on:  
+     - db
+
+
+  db:
+    image: postgres
+    environment:
+      DATABASE_HOST: docker-postgresql
+      DATABASE_PORT: 5432
+      POSTGRES_ROOT_PASSWORD: password
+      POSTGRES_DATABASE: dockerdemo     
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: password
+      
+    # volumes:
+    #   - ./postgres-data:/var/lib/postgresql/data  
+
+
+
